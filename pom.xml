@@ -25,9 +25,9 @@
 
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github.ptgoetz</groupId>
+	<groupId>com.github.josedeveloper</groupId>
 	<artifactId>storm-jms</artifactId>
-	<version>0.9.2-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>Storm JMS</name>
 	<description>Storm JMS Components</description>
 
@@ -38,10 +38,10 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
-	<scm>
-		<connection>scm:git:git@github.com:ptgoetz/storm-jms.git</connection>
-		<developerConnection>scm:git:git@github.com:ptgoetz/storm-jms.git</developerConnection>
-		<url>:git@github.com:ptgoetz/storm-jms.git</url>
+  	<scm>
+		<connection>scm:git:git@github.com:joseratts/storm-jms.git</connection>
+		<developerConnection>scm:git:git@github.com:joseratts/storm-jms.git</developerConnection>
+		<url>:git@github.com:joseratts/storm-jms.git</url>
 	</scm>
 	
 	<repositories>
@@ -51,17 +51,17 @@
                 </repository>
         </repositories>
 	
-	<developers>
+  	<developers>
 		<developer>
-			<id>ptgoetz</id>
-			<name>P. Taylor Goetz</name>
-			<email>ptgoetz@gmail.com</email>
+			<id>joseratts</id>
+			<name>Jose Antonio Rodriguez</name>
+			<email>jose@josedeveloper.com</email>
 		</developer>
 	</developers>
 
 
 	<properties>
-		<storm.version>0.9.3</storm.version>
+		<storm.version>1.0.1</storm.version>
 	</properties>
 	<dependencies>
 		<dependency>

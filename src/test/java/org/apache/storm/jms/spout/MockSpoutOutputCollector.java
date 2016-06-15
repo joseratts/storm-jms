@@ -20,7 +20,7 @@ package org.apache.storm.jms.spout;
 import java.util.ArrayList;
 import java.util.List;
 
-import backtype.storm.spout.ISpoutOutputCollector;
+import org.apache.storm.spout.ISpoutOutputCollector;
 
 public class MockSpoutOutputCollector implements ISpoutOutputCollector {
     boolean emitted = false;
@@ -47,4 +47,10 @@ public class MockSpoutOutputCollector implements ISpoutOutputCollector {
     public void reset(){
         this.emitted = false;
     }
+
+	@Override
+	public long getPendingCount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

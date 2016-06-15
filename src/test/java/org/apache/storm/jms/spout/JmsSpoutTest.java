@@ -32,12 +32,14 @@ import javax.jms.TextMessage;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.mortbay.log.Log;
-
+import org.apache.log4j.Logger;
 import org.apache.storm.jms.JmsProvider;
-import backtype.storm.spout.SpoutOutputCollector;
+import org.apache.storm.spout.SpoutOutputCollector;
 
 public class JmsSpoutTest {
+	
+	private static final Logger Log= Logger.getLogger( JmsSpoutTest.class.getName() );
+	
     @Test
     public void testFailure() throws JMSException, Exception{
         JmsSpout spout = new JmsSpout();
